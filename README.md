@@ -77,37 +77,38 @@ Functional arithmetic calculator.
 
 ---
 
-# 📊 GitHub Stats
-
+# ⭐ Final Thoughts  
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=udaysapkal15&show_icons=true&theme=tokyonight&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=udaysapkal15&layout=compact&theme=tokyonight&hide_border=true"/>
-</p>
-
----
-
-# 🔥 Streaks
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=udaysapkal15&theme=tokyonight&hide_border=true"/>
-</p>
-
----
-
-# 🎉 Fun Animated Section
-
-<p align="center">
-  <img src="https://media.tenor.com/NOYF3f82b_gAAAAC/programmer.gif" width="300">
+  I believe in <b>learning by building</b> and improving a little every single day.  
+  <br><br>
+  If you enjoyed exploring my work, feel free to ⭐ any repository you like.  
+  <br>
+  Your support motivates me to build more amazing projects!
 </p>
 
 ---
 
 # 📫 Connect With Me
-
-📩 Email: **udaysapkal135@gmail.com**  
-💼 LinkedIn: **https://www.linkedin.com/in/udaysapkal15**
+<p align="center">
+  📧 <b>Email:</b> <a href="mailto:udaysapkal135@gmail.com">udaysapkal135@gmail.com</a>  
+  <br>
+  💼 <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/udaysapkal15" target="_blank">linkedin.com/in/udaysapkal15</a>
+</p>
 
 ---
 
 <p align="center">
-  ⭐ If you like my projects, consider giving them a star! ⭐  
+  <b>Thank you for visiting — You're awesome! 🚀</b>
 </p>
+
+
+
+---
+
+
+
+---
+
+
+---
+
