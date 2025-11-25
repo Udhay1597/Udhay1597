@@ -1,184 +1,113 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Udhay Sapkal - Portfolio</title>
+<!-- HEADER -->
+<p align="center">
+  <img src="https://media.tenor.com/qJ5evVs-_uUAAAAC/coding.gif" width="200"/>
+</p>
 
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet" />
+<h1 align="center">👋 Hi, I'm <span style="color:#ff6f61;">Udhay Sapkal</span></h1>
 
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: "Poppins", sans-serif;
-      background: #0d0d0d;
-      color: #ffffff;
-      line-height: 1.6;
-    }
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=26&duration=3500&color=FF6D3C&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Software+Tester;API+Testing+%7C+Cloud+Learner;Tech+Enthusiast;Always+learning+new+things!">
+</p>
 
-    /* Center Container */
-    .container {
-      width: 90%;
-      max-width: 900px;
-      margin: auto;
-      padding-top: 30px;
-    }
+---
 
-    /* Animated Name */
-    .animated-title {
-      text-align: center;
-      font-size: 50px;
-      font-weight: 800;
-      margin-top: 40px;
-      background: linear-gradient(90deg, #ff8c00, #ff0077, #6a5acd);
-      -webkit-background-clip: text;
-      color: transparent;
-      animation: glow 2s infinite alternate ease-in-out;
-    }
+# 🌐 About Me  
+Motivated and detail-oriented **Full-Stack Developer & QA Enthusiast** who loves building useful applications, exploring cloud technologies, and improving software quality through testing.
 
-    @keyframes glow {
-      0% { text-shadow: 0 0 12px rgba(255, 0, 150, 0.4); }
-      100% { text-shadow: 0 0 25px rgba(0, 150, 255, 0.9); }
-    }
+I enjoy writing clean code, building real-world apps, and constantly leveling up my skills.
 
-    .cursor {
-      font-weight: bold;
-      animation: blink 0.7s infinite;
-    }
+---
 
-    @keyframes blink {
-      50% { opacity: 0; }
-    }
+# 🛠 Tech Stack
 
-    h2 {
-      margin-top: 40px;
-      color: #ff9f43;
-    }
+### 🚀 **Languages**
+`C++` • `C#` • `Java` • `JavaScript` • `SQL`
 
-    .section {
-      background: #1a1a1a;
-      padding: 20px;
-      border-radius: 10px;
-      margin-top: 15px;
-      box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.08);
-    }
+### 🎨 **Web Technologies**
+`HTML5` • `CSS3` • `Angular` • `React` • `.NET 8` • `Node.js` • `Bootstrap`
 
-    ul {
-      margin: 0;
-      padding-left: 20px;
-    }
+### ☁️ **Databases & Cloud**
+`MySQL` • `AWS S3`
 
-    a {
-      color: #ffbe76;
-      font-weight: 600;
-      text-decoration: none;
-    }
+### 🧪 **Testing**
+`Manual Testing` • `Postman (API Testing)`
 
-    a:hover {
-      color: #f0932b;
-    }
-  </style>
-</head>
-<body>
+### 🛠 **Tools**
+`VS Code` • `Git` • `Swagger` • `Postman` • `Maven`
 
-  <!-- Animated Title -->
-  <h1 class="animated-title">
-    <span id="typing"></span><span class="cursor">|</span>
-  </h1>
+---
 
-  <script>
-    const text = "👋 Hi, I'm Udhay Sapkal";
-    let index = 0;
+# 📌 Projects
 
-    function typeEffect() {
-      const typingElement = document.getElementById("typing");
-      typingElement.innerHTML = text.slice(0, index);
-      index++;
+### **🌩 1. AWS S3 Cloud Storage Web App**
+CRUD web app storing data in Amazon S3 buckets.  
+**Tech:** J2EE, Spring, JDBC, Maven, MySQL, HTML, CSS
 
-      if (index <= text.length) {
-        setTimeout(typeEffect, 120);
-      }
-    }
+---
 
-    setTimeout(typeEffect, 500);
-  </script>
+### **📇 2. Full-Stack Contacts Application**
+Contact management CRUD system with Angular + ASP.NET APIs.  
+**Tech:** Angular 17, .NET 8, Tailwind CSS
 
-  <div class="container">
+---
 
-    <!-- About Me -->
-    <h2>🌐 About Me</h2>
-    <div class="section">
-      Motivated and detail-oriented tech enthusiast skilled in
-      <strong>full-stack development, software testing, API testing, and cloud applications</strong>.
-      I focus on writing clean code, building useful real-world projects, and improving my technical abilities.
-    </div>
+### **🛒 3. Amazon Homepage Clone**
+Responsive clone of Amazon’s homepage.  
+**Tech:** HTML, CSS
 
-    <!-- Tech Stack -->
-    <h2>🛠 Tech Stack</h2>
-    <div class="section">
-      <strong>Languages:</strong> C++, C#, Java, JavaScript, SQL <br>
-      <strong>Web:</strong> HTML5, CSS3, Angular, React, .NET 8, Node.js, Bootstrap <br>
-      <strong>Databases & Cloud:</strong> MySQL, AWS S3 <br>
-      <strong>Testing & QA:</strong> Manual Testing, API Testing (Postman) <br>
-      <strong>Tools:</strong> VS Code, Git, Swagger, Postman, Maven
-    </div>
+---
 
-    <!-- Projects -->
-    <h2>📌 Projects</h2>
+### **🌐 4. Personal Portfolio Website**
+Clean, responsive portfolio showcasing all projects.  
+**Tech:** HTML, CSS, JavaScript, Bootstrap
 
-    <div class="section">
-      <h3>1. AWS S3 Cloud Storage Web App</h3>
-      Full CRUD cloud application using AWS S3 buckets.  
-      <strong>Tech:</strong> J2EE, Spring, JDBC, Maven, MySQL, HTML, CSS, Bootstrap
-    </div>
+---
 
-    <div class="section">
-      <h3>2. Full-Stack Contacts Application</h3>
-      CRUD contact management website using Angular + ASP.NET Core Web API.  
-      <strong>Tech:</strong> Angular 17, .NET 8, Tailwind CSS
-    </div>
+### **🧮 5. JavaScript Calculator**
+Functional arithmetic calculator.  
+**Tech:** HTML, CSS, JS
 
-    <div class="section">
-      <h3>3. Amazon Homepage Clone</h3>
-      A pixel-perfect responsive clone of Amazon’s UI.  
-      <strong>Tech:</strong> HTML, CSS
-    </div>
+---
 
-    <div class="section">
-      <h3>4. Personal Portfolio Website</h3>
-      Your personal responsive portfolio showcasing all your work.  
-      <strong>Tech:</strong> HTML, CSS, JavaScript, Bootstrap
-    </div>
+# 🚀 What I’m Learning
+✔ Full-stack development  
+✔ API testing & automation  
+✔ Cloud basics (AWS)  
+✔ DevOps concepts (CI/CD)  
 
-    <div class="section">
-      <h3>5. JavaScript Calculator</h3>
-      Fully functional arithmetic calculator built with vanilla JS.  
-      <strong>Tech:</strong> HTML, CSS, JavaScript
-    </div>
+---
 
-    <!-- Focus -->
-    <h2>🚀 What I’m Focusing On</h2>
-    <div class="section">
-      - Strengthening full-stack development skills <br>
-      - Improving API testing & automation <br>
-      - Building scalable real-world projects <br>
-      - Learning DevOps, CI/CD & cloud workflows
-    </div>
+# 📊 GitHub Stats
 
-    <!-- Contact -->
-    <h2>📫 Connect With Me</h2>
-    <div class="section">
-      📧 Email: <a href="mailto:udaysapkal135@gmail.com">udaysapkal135@gmail.com</a><br>
-      🔗 LinkedIn: <a href="https://www.linkedin.com/in/udaysapkal15/">linkedin.com/in/udaysapkal15</a>
-    </div>
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=udaysapkal15&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=udaysapkal15&layout=compact&theme=tokyonight&hide_border=true"/>
+</p>
 
-    <p style="margin-top:40px; text-align:center; opacity:0.6;">
-      ⭐ If you like my projects, consider starring the repos!
-    </p>
+---
 
-  </div>
+# 🔥 Streaks
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=udaysapkal15&theme=tokyonight&hide_border=true"/>
+</p>
 
-</body>
-</html>
+---
+
+# 🎉 Fun Animated Section
+
+<p align="center">
+  <img src="https://media.tenor.com/NOYF3f82b_gAAAAC/programmer.gif" width="300">
+</p>
+
+---
+
+# 📫 Connect With Me
+
+📩 Email: **udaysapkal135@gmail.com**  
+💼 LinkedIn: **https://www.linkedin.com/in/udaysapkal15**
+
+---
+
+<p align="center">
+  ⭐ If you like my projects, consider giving them a star! ⭐  
+</p>
